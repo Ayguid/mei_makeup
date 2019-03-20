@@ -3,7 +3,19 @@
    --main-bg-color: rgb(79, 79, 79);
    --main-bg-color-active: rgb(133, 133, 133);
  }
-
+ html {
+     overflow: scroll;
+     overflow-x: hidden;
+     /* padding: 1px; */
+ }
+ ::-webkit-scrollbar {
+     width: 0px;  /* remove scrollbar space */
+     background: transparent;  /* optional: just make scrollbar invisible */
+ }
+ /* optional: show position indicator in red */
+ ::-webkit-scrollbar-thumb {
+     background: #FF0000;
+ }
 body, div,
 h1, h2, h3, h4, h5, h6,
 p, blockquote, pre, dl, dt, dd, ol, ul, li, hr,
@@ -28,6 +40,7 @@ body {
   color: #37302a;
   background: #fff;
   font: normal 100%/1.4 sans-serif;
+
 }
 
 
@@ -58,6 +71,7 @@ img {
 .row{
   overflow: hidden;
 }
+
 #home .foto{
   width: 100%;
 }
