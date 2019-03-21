@@ -62,7 +62,8 @@
 --------------------------------------------- */
 
 header {
-  background: var(--main-bg-color);
+  padding: 10px;
+  background:#ffffff;
   position: fixed;
   z-index: 3;
   width: 100%;
@@ -76,7 +77,7 @@ header {
   font-weight: bold;
   line-height: 55px;
   padding: 0 20px;
-  color: #fff;
+  color: #4f4f4f;
   float: left;
 }
 
@@ -162,19 +163,22 @@ header {
 }
 
 .nav-collapse a {
+  transition: border-bottom 0.7s;
+  border-bottom: 1px solid transparent;
   -webkit-tap-highlight-color: rgba(0,0,0,0);
   border-top: 1px solid white;
   text-decoration: none;
-  background: var(--main-bg-color);
+  background: #ffffff;
   padding: 0.7em 1em;
-  color: #fff;
+  color: #4f4f4f;
   width: 100%;
   float: left;
 }
 
 .nav-collapse a:active,
 .nav-collapse .active a {
-  background: var(--main-bg-color-active);
+  /* background: rgb(184, 184, 184); */
+  border-bottom: 1px solid rgb(184, 184, 184);
 }
 
 @media screen and (min-width: 40em) {
@@ -228,7 +232,7 @@ header {
 }
 
 .nav-toggle:before {
-  color: #fff; /* Edit this to change the icon color */
+  color: #4f4f4f; /* Edit this to change the icon color */
   font: normal 28px/55px "responsivenav"; /* Edit font-size (28px) to change the icon size */
   text-transform: none;
   text-align: center;
