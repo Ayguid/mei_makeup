@@ -16,6 +16,9 @@
   <![endif]-->
   <script src="js/preLoader.js"></script>
   <script src="js/responsive-nav.js"></script>
+
+  <link rel="stylesheet" href="./node_modules/owl.carousel/dist/assets/owl.carousel.min.css" />
+
   <title>Mei Devoto MakeUp</title>
   <link rel="shortcut icon" type="image/png" href="./img/logos/favicon.png"/>
 
@@ -41,66 +44,42 @@
   <section id="home">
     <!-- <h1>Fixed Nav</h1> -->
     <div class="fotos_container ">
-      <div class="row">
-        <div class="foto hidden ">
-          <img class="" src="./img/seleccion/IMG_8919low.jpg" alt="">
-        </div>
-        <div class="foto hidden ">
-          <img class="" src="./img/seleccion/IMG_8936low.jpg" alt="">
-        </div>
-        <div class="foto hidden ">
-          <img class="" src="./img/seleccion/IMG_9059low.jpg" alt="">
-        </div>
-        <div class="foto hidden ">
-          <img class="" src="./img/seleccion/IMG_9024low.jpg" alt="">
+
+      <div class="row hidden">
+        <div id="owl-one" class="owl-carousel owl-theme">
+          <div><img class="" src="./img/seleccion/IMG_8919low.jpg" alt=""></div>
+          <div><img class="" src="./img/seleccion/IMG_8936low.jpg" alt=""></div>
+          <div><img class="" src="./img/seleccion/IMG_9059low.jpg" alt=""></div>
+          <div><img class="" src="./img/seleccion/IMG_9024low.jpg" alt=""></div>
         </div>
       </div>
 
-      <!-- <div class="row">
-      <div class="foto hidden">
-      <img class="" src="./img/seleccion/IMG_8867.jpg" alt="">
+
+
+      <div class="row hidden">
+        <div id="owl-two" class="owl-carousel owl-theme">
+          <div class=""><img class="" src="./img/seleccion/flores4.jpg" alt=""></div>
+          <div class=""><img class="" src="./img/seleccion/flores1.jpg" alt=""></div>
+          <div class=""><img class="" src="./img/seleccion/flores2.jpg" alt=""></div>
+          <div class=""><img class="" src="./img/seleccion/flores3.jpg" alt=""></div>
+        </div>
+      </div>
+
     </div>
-    <div class="foto hidden">
-    <img class="" src="./img/seleccion/IMG_8970.jpg" alt="">
+
+  </section>
+
+  <section id="about">
+
+
+    <!-- <div class="rightSide_about">
+
+    <div class="fotos_about">
+    <div class="foto">
+    <img src="./img/seleccion/pinceles1.jpg" alt="">
   </div>
-  <div class="foto hidden">
-  <img class="" src="./img/seleccion/IMG_8855.jpg" alt="">
-</div>
-<div class="foto hidden">
-<img class="" src="./img/seleccion/IMG_9066.jpg" alt="">
-</div>
-</div> -->
-
-<div class="row">
-  <div class="foto hidden">
-    <img class="" src="./img/seleccion/flores4.jpg" alt="">
-  </div>
-  <div class="foto hidden">
-    <img class="" src="./img/seleccion/flores1.jpg" alt="">
-  </div>
-  <div class="foto hidden">
-    <img class="" src="./img/seleccion/flores2.jpg" alt="">
-  </div>
-  <div class="foto hidden">
-    <img class="" src="./img/seleccion/flores3.jpg" alt="">
-  </div>
-</div>
-
-</div>
-
-</section>
-
-<section id="about">
-
-
-  <!-- <div class="rightSide_about">
-
-  <div class="fotos_about">
   <div class="foto">
-  <img src="./img/seleccion/pinceles1.jpg" alt="">
-</div>
-<div class="foto">
-<img src="./img/seleccion/pinceles2.jpg" alt="">
+  <img src="./img/seleccion/pinceles2.jpg" alt="">
 </div>
 </div>
 </div> -->
@@ -167,12 +146,13 @@
   </section>
 
 
-
+  <script src="./node_modules/jquery/dist/jquery.js"></script>
+  <script src="./node_modules/owl.carousel/dist/owl.carousel.min.js"></script>
+  <script src="js/owlCarousel.js"></script>
   <script src="js/fastclick.js"></script>
   <script src="js/scroll.js"></script>
   <script src="js/fixed-responsive-nav.js"></script>
   <script src="js/fadeIn.js"></script>
-
 </body>
 
 
